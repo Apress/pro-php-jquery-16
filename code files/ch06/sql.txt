@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `php-jquery_example`.`users` (
+  `user_id` INT(11) NOT NULL AUTO_INCREMENT,
+  `user_name` VARCHAR(80) DEFAULT NULL,
+  `user_pass` VARCHAR(47) DEFAULT NULL,
+  `user_email` VARCHAR(80) DEFAULT NULL,
+  PRIMARY KEY (`user_id`),
+  UNIQUE (`user_name`)
+) ENGINE=MyISAM CHARACTER SET utf8 COLLATE utf8_unicode_ci;

@@ -1,0 +1,92 @@
+fieldset {
+    border: 0;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input[type=text],input[type=password],label {
+    display: block;
+    width: 70%;
+    font-weight: bold;
+}
+
+textarea {
+    width: 99%;
+    height: 200px;
+}
+
+input[type=text],input[type=password],textarea {
+    border: 1px solid #123;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: inset 1px 2px 4px #789;
+    -webkit-box-shadow: inset 1px 2px 4px #789;
+    box-shadow: inset 1px 2px 4px #789;
+    padding: 4px;
+    margin: 0 0 4px;
+    font-size: 16px;
+    font-family: georgia, serif;
+}
+
+input[type=submit] {
+    margin: 4px 0;
+    padding: 4px;
+    border: 1px solid #123;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: inset -2px -1px 3px #345,
+        inset 1px 1px 3px #BCF,
+        1px 2px 6px #789;
+    -webkit-box-shadow: inset -2px -1px 3px #345,
+        inset 1px 1px 3px #BCF,
+        1px 2px 6px #789;
+    box-shadow: inset -2px -1px 3px #345,
+        inset 1px 1px 3px #BCF,
+        1px 2px 6px #789;
+    background-color: #789;
+    font-family: georgia, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 0px 0px 1px #fff;
+}
+
+.admin-options {
+    text-align: center;
+}
+
+.admin-options form,.admin-options p {
+    display: inline;
+}
+
+a.admin {
+    display: inline-block;
+    margin: 4px 0;
+    padding: 4px;
+    border: 1px solid #123;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: inset -2px -1px 3px #345,
+        inset 1px 1px 3px #BCF,
+        1px 2px 6px #789;
+    -webkit-box-shadow: inset -2px -1px 3px #345,
+        inset 1px 1px 3px #BCF,
+        1px 2px 6px #789;
+    box-shadow: inset -2px -1px 3px #345,
+        inset 1px 1px 3px #BCF,
+        1px 2px 6px #789;
+    background-color: #789;
+    color: black;
+    text-decoration: none;
+    font-family: georgia, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 0px 0px 1px #fff;
+}
